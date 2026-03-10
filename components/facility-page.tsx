@@ -81,7 +81,7 @@ export function FacilityPage({
               <CardContent>
                 <div className="aspect-video w-full rounded-lg overflow-hidden border border-border">
                   <iframe
-                    src={`https://calendar.google.com/calendar/embed?src=${calendarId}&ctz=Asia%2FJakarta&mode=MONTH`}
+                    src={`https://calendar.google.com/calendar/embed?src=${calendarId}&ctz=Asia%2FJakarta&mode=MONTH&showTitle=1`}
                     style={{ border: 0 }}
                     width="100%"
                     height="100%"
