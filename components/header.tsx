@@ -30,8 +30,8 @@ export function Header() {
               className="w-10 h-10 lg:w-12 lg:h-12 object-contain"
             />
             <div className="hidden sm:block">
-              <p className="text-sm lg:text-base font-semibold text-foreground leading-tight">Sekretariat Daerah</p>
-              <p className="text-xs lg:text-sm text-muted-foreground">Kabupaten Lamandau</p>
+              <p className="text-sm lg:text-base font-semibold text-foreground leading-tight">Bagian Umum</p>
+              <p className="text-xs lg:text-sm text-muted-foreground">Sekretariat Daerah Kabupaten Lamandau</p>
             </div>
           </Link>
 
