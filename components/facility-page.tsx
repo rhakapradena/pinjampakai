@@ -11,17 +11,19 @@ interface FacilityPageProps {
   capacity: string
   location: string
   calendarId: string
+  bookingLink: string
   rules: string[]
   features: string[]
 }
 
 export function FacilityPage({ 
-  title, 
+   title, 
   description, 
   image, 
   capacity, 
   location, 
   calendarId,
+  bookingLink,
   rules,
   features
 }: FacilityPageProps) {
@@ -153,9 +155,11 @@ export function FacilityPage({
                   </ul>
                 </div>
 
+                <Link href={bookingLink} target="_blank">
                 <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground mt-4">
-                  Ajukan Peminjaman
+                Ajukan Peminjaman
                 </Button>
+                </Link>
               </CardContent>
             </Card>
           </div>
