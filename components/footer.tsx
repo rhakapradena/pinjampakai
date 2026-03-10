@@ -62,11 +62,11 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 shrink-0" />
-                <span className="text-primary-foreground/80">(0532) 123456</span>
+                <span className="text-primary-foreground/80">(0532) 2071020</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 shrink-0" />
-                <span className="text-primary-foreground/80">setda@lamandaukab.go.id</span>
+                <span className="text-primary-foreground/80">bagianumumsetdalamandau@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -74,7 +74,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-10 pt-6 border-t border-primary-foreground/20 text-center text-sm text-primary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} Pemerintah Kabupaten Lamandau. Hak Cipta Dilindungi.</p>
+          <p>&copy; {new Date().getFullYear()} Bagian Umum Sekretariat Daerah Kabupaten Lamandau. Hak Cipta Dilindungi.</p>
         </div>
       </div>
     </footer>
