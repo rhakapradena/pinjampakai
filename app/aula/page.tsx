@@ -16,7 +16,7 @@ Berlokasi di Komplek Perkantoran Sekretariat Daerah, aula ini menawarkan suasana
   image: "/images/aula.jpg",
   capacity: "200 orang",
   location: "Komplek Perkantoran Setda",
-  calendarId: "example_aula_calendar@group.calendar.google.com",
+  calendarId: "ab970a44f510b2700d3c2154c54c60f5861a9ba4ee2e35913efe2b9a1680b028@group.calendar.google.com",
   bookingLink: "https://docs.google.com/forms/d/e/1FAIpQLSdQLyAp7Rc4sO2Q6qxJtVhRE27Oj1QkAYu62BynlmQBMZqefw/viewform",
   rules: [
     "Pengajuan peminjaman minimal 5 hari kerja sebelum acara berlangsung.",
