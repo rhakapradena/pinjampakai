@@ -17,6 +17,7 @@ Dilengkapi dengan meja rapat oval, kursi ergonomis, dan peralatan presentasi mod
   capacity: "30 orang",
   location: "Komplek Perkantoran Setda",
   calendarId: "example_ruang_rapat_calendar@group.calendar.google.com",
+  bookingLink: "https://docs.google.com/forms/d/e/1FAIpQLSeLDUw250h4YIq2cc1xIhLas4nmmYp-B3m-EyBgEBJ8auFZnQ/viewform",
   rules: [
     "Pengajuan peminjaman minimal 3 hari kerja sebelum kegiatan.",
     "Prioritas penggunaan untuk kegiatan kedinasan Pemerintah Kabupaten Lamandau.",
