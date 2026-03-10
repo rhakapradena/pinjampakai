@@ -17,6 +17,7 @@ Dengan kapasitas hingga 500 orang, GPU dilengkapi dengan sistem tata suara profe
   capacity: "500 orang",
   location: "Komplek Perkantoran Setda",
   calendarId: "example_gpu_calendar@group.calendar.google.com",
+  bookingLink: "https://docs.google.com/forms/d/e/1FAIpQLSf2Z_1oMvfOACsbShVWk0SCQmxGte9n-XG-y7fS2PuXS4AsyA/viewform",
   rules: [
     "Pengajuan peminjaman minimal 7 hari kerja sebelum acara berlangsung.",
     "Peminjam wajib menyerahkan proposal kegiatan yang akan diselenggarakan.",
