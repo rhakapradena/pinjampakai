@@ -16,7 +16,7 @@ Dengan kapasitas hingga 500 orang, GPU dilengkapi dengan sistem tata suara profe
   image: "/images/gedung-pertemuan-umum.jpg",
   capacity: "500 orang",
   location: "Komplek Perkantoran Setda",
-  calendarId: "https://calendar.google.com/calendar/embed?src=813c2ce1d348ea2627f0182a2045778af86baddb8de396bc90e653278f8bb265%40group.calendar.google.com&ctz=Asia%2FJakarta",
+  calendarId: "813c2ce1d348ea2627f0182a2045778af86baddb8de396bc90e653278f8bb265@group.calendar.google.com",
   bookingLink: "https://docs.google.com/forms/d/e/1FAIpQLSf2Z_1oMvfOACsbShVWk0SCQmxGte9n-XG-y7fS2PuXS4AsyA/viewform",
   rules: [
     "Pengajuan peminjaman minimal 7 hari kerja sebelum acara berlangsung.",
