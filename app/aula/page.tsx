@@ -19,9 +19,7 @@ Berlokasi di Komplek Perkantoran Sekretariat Daerah, aula ini menawarkan suasana
   calendarId: "ab970a44f510b2700d3c2154c54c60f5861a9ba4ee2e35913efe2b9a1680b028@group.calendar.google.com",
   bookingLink: "https://docs.google.com/forms/d/e/1FAIpQLSdQLyAp7Rc4sO2Q6qxJtVhRE27Oj1QkAYu62BynlmQBMZqefw/viewform",
   rules: [
-    "Pengajuan peminjaman minimal 5 hari kerja sebelum acara berlangsung.",
     "Peminjam wajib mengisi formulir permohonan peminjaman yang tersedia.",
-    "Penggunaan aula maksimal hingga pukul 21.00 WIB.",
     "Peminjam bertanggung jawab atas penataan ruangan sesuai kebutuhan.",
     "Konsumsi hanya diperbolehkan di area yang ditentukan.",
     "Menjaga ketertiban dan tidak mengganggu aktivitas kantor.",
