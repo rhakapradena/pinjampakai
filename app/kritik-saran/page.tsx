@@ -1,20 +1,64 @@
-<div className="text-center mb-8 space-y-3">
-  <MessageSquare className="w-12 h-12 text-primary mx-auto" />
-  <h2 className="text-xl lg:text-2xl font-semibold">
-    Form Kritik & Saran
-  </h2>
-  <p className="text-muted-foreground">
-    Silakan isi formulir berikut untuk menyampaikan kritik dan
-    saran Anda kepada kami.
-  </p>
-</div>
+import { Metadata } from "next"
+import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
+import { MessageSquare } from "lucide-react"
 
-<iframe
-  src="https://tally.so/embed/5BkpK6?alignLeft=1&hideTitle=1&transparentBackground=1"
-  loading="lazy"
-  width="100%"
-  height="900"
-  frameBorder="0"
-  title="Kritik dan Saran"
-  className="w-full rounded-lg border"
-/>
+export const metadata: Metadata = {
+  title: "Kritik & Saran - Sekretariat Daerah Kabupaten Lamandau",
+  description:
+    "Sampaikan kritik dan saran Anda untuk peningkatan pelayanan fasilitas Sekretariat Daerah Kabupaten Lamandau.",
+}
+
+export default function KritikSaranPage() {
+  return (
+    <div className="min-h-screen flex flex-col bg-background">
+      <Header />
+
+      <main className="flex-1">
+        {/* Hero */}
+        <section className="bg-primary py-12 lg:py-16">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="text-2xl lg:text-4xl font-bold text-primary-foreground mb-4">
+              Kritik & Saran
+            </h1>
+
+            <p className="text-primary-foreground/90 max-w-2xl mx-auto">
+              Kami sangat menghargai masukan Anda untuk meningkatkan kualitas
+              pelayanan fasilitas Sekretariat Daerah Kabupaten Lamandau.
+            </p>
+          </div>
+        </section>
+
+        {/* Form Section */}
+        <section className="py-12 lg:py-16">
+          <div className="container mx-auto px-4 max-w-3xl">
+
+            <div className="text-center mb-8 space-y-3">
+              <MessageSquare className="w-12 h-12 text-primary mx-auto" />
+
+              <h2 className="text-xl lg:text-2xl font-semibold">
+                Form Kritik & Saran
+              </h2>
+
+              <p className="text-muted-foreground">
+                Silakan isi formulir berikut untuk menyampaikan kritik dan saran Anda kepada kami.
+              </p>
+            </div>
+
+            <iframe
+              src="https://tally.so/embed/5BkpK6?alignLeft=1&hideTitle=1&transparentBackground=1"
+              width="100%"
+              height="900"
+              frameBorder="0"
+              title="Kritik dan Saran"
+              className="w-full rounded-lg border"
+            />
+
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  )
+}
