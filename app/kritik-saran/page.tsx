@@ -2,7 +2,6 @@ import { Metadata } from "next"
 import Script from "next/script"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { MessageSquare } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Kritik & Saran - Sekretariat Daerah Kabupaten Lamandau",
@@ -30,6 +29,10 @@ export default function KritikSaranPage() {
             </p>
           </div>
         </section>
+
+        {/* Form Section */}
+        <section className="py-12 lg:py-16">
+          <div className="container mx-auto px-4 max-w-4xl">
 
             <iframe
               data-tally-src="https://tally.so/embed/5BkpK6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
