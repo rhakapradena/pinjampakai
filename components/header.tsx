@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
-import { Menu, X, Building2, Users, Presentation, Phone } from "lucide-react"
+import { Menu, X, Building2, Users, Presentation, Phone, MessageSquare } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navItems = [
@@ -11,6 +11,7 @@ const navItems = [
   { href: "/aula", label: "Aula", icon: Users, description: "Aula Setda" },
   { href: "/ruang-rapat", label: "Ruang Rapat", icon: Presentation, description: "Ruang Rapat" },
   { href: "/kontak", label: "Kontak Terkait", icon: Phone, description: "Informasi & Pemesanan" },
+  { href: "/kritik-saran", label: "Kritik & Saran", icon: MessageSquare, description: "Masukan untuk pelayanan" },
 ]
 
 export function Header() {
