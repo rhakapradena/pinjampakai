@@ -97,7 +97,7 @@ export default function HomePage() {
         </section>
 
         {/* How It Works */}
-        <section className="py-16 lg:py-24 bg-muted">
+        <section id="panduan" className="py-16 lg:py-24 bg-muted">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Cara Meminjam Fasilitas</h2>
@@ -124,7 +124,7 @@ export default function HomePage() {
         </section>
 
         {/* Facilities */}
-        <section className="py-16 lg:py-24">
+        <section id="fasilitas" className="py-16 lg:py-24">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Fasilitas Tersedia</h2>
