@@ -84,11 +84,19 @@ export default function HomePage() {
               </p>
               
               <div className="flex flex-wrap gap-4 pt-4">
+              <a href="#fasilitas">
                 <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
                   Lihat Fasilitas
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
-                <Button size="lg" variant="outline" className="bg-card/10 border-card/30 text-card hover:bg-card/20 hover:text-card">
+              </a>
+            
+              <a href="#panduan">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="bg-card/10 border-card/30 text-card hover:bg-card/20 hover:text-card"
+                >
                   Panduan Peminjaman
                 </Button>
               </div>
