@@ -12,28 +12,25 @@ const gpuData = {
   title: "Gedung Pertemuan Umum (GPU)",
   description: `Gedung Pertemuan Umum (GPU) adalah fasilitas terbesar milik Sekretariat Daerah Kabupaten Lamandau yang dirancang khusus untuk menampung acara-acara berskala besar. Gedung ini sering digunakan untuk seminar nasional, konferensi, resepsi pernikahan, dan berbagai acara kemasyarakatan lainnya.
 
-Dengan kapasitas hingga 500 orang, GPU dilengkapi dengan sistem tata suara profesional, pencahayaan modern, AC sentral, dan akses yang mudah dijangkau. Area parkir yang luas tersedia untuk kenyamanan para tamu undangan.`,
+Dengan kapasitas hingga 500+ orang, GPU dilengkapi dengan sistem tata suara profesional, AC sentral, dan akses yang mudah dijangkau. Area parkir yang luas tersedia untuk kenyamanan para tamu undangan.`,
   image: "/images/gedung-pertemuan-umum.jpg",
   capacity: "500 orang",
   location: "Komplek Perkantoran Setda",
   calendarId: "7b58bbe0c83c7a700ecc2edcd4387baaab56bb0f130ae64696d498e2b4d0c48e@group.calendar.google.com",
   bookingLink: "https://docs.google.com/forms/d/e/1FAIpQLSf2Z_1oMvfOACsbShVWk0SCQmxGte9n-XG-y7fS2PuXS4AsyA/viewform",
   rules: [
-    "Pengajuan peminjaman minimal 7 hari kerja sebelum acara berlangsung.",
     "Peminjam wajib menyerahkan proposal kegiatan yang akan diselenggarakan.",
-    "Penggunaan gedung maksimal hingga pukul 22.00 WIB.",
     "Peminjam bertanggung jawab atas kebersihan dan keamanan selama acara.",
     "Dilarang membawa minuman keras dan melakukan kegiatan yang melanggar hukum.",
     "Kerusakan fasilitas menjadi tanggung jawab peminjam.",
   ],
   features: [
-    "Sound System Profesional",
-    "Proyektor & Layar",
+    "Sound System",
+    "Proyektor",
     "AC Sentral",
-    "WiFi Gratis",
     "Panggung & Podium",
-    "Kursi Lipat 500 unit",
-    "Ruang Ganti / Persiapan",
+    "Kursi 500 unit",
+    "Ruang VIP",
     "Area Parkir Luas",
   ],
 }
