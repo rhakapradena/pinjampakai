@@ -12,7 +12,7 @@ const facilities = [
     image: "/images/gedung-pertemuan-umum.jpg",
     href: "/gpu",
     capacity: "500+ orang",
-    location: "Jl. Bukit Hibul Barat (Komp. Perkantoran), Nanga Bulik",
+    location: "Jl. Bukit Hibul Barat (Komp. Perkantoran)",
   },
   {
     title: "Aula Setda",
