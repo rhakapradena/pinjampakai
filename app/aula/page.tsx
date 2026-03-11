@@ -28,12 +28,11 @@ Berlokasi di Komplek Perkantoran Sekretariat Daerah, aula ini menawarkan suasana
   ],
   features: [
     "Sound System",
-    "Proyektor & Layar",
+    "Proyektor & Videtron",
     "AC Split",
     "WiFi Gratis",
     "Meja & Kursi Formal",
-    "Podium Pembicara",
-    "Whiteboard",
+    "Podium",
     "Toilet Bersih",
   ],
 }
